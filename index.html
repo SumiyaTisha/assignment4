@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Search</title>
+    <link rel="stylesheet" href="mealDB.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meal Search</h1>
+        <input type="text" id="searchInput" placeholder="Search by id '52772'">
+        <button onclick="fetchMealsByIds(['52772', '52843', '52945', '52940', '53007'])">Search</button>
+        
+        <div id="searchResults"></div>
+
+    </div>
+    <script src="mealDB.js"></script>
+</body>
+</html>
